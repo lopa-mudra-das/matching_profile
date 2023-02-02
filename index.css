@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.frist{
+    height: 600px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.match_1{
+    height: 50vh;
+    width: 30vw;
+    background-color: rgb(91, 43, 211);
+    border: 3px solid black;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038__480.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    
+}
+
+.match_2{
+    height: 50vh;
+    width: 30vw;
+    background-color: rgb(220, 41, 41);
+    border: 3px solid black;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/03/04/36/couple-3581038__480.jpg");
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}   
+p{
+    font-size: 100px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+    
+  }
+    @keyframes example {
+    from {color: rgb(82, 80, 80);}
+    to{color: rgb(16, 16, 16);}
+  }
+  input[type]{
+    height: 35px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 90px;
+    text-align: center;
+    font-size: 20px;
+    text-transform:uppercase;
+  }
+h2{
+  display: flex;
+  justify-content: center;
+ 
+}
